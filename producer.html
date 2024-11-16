@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>Producer's Page</title>
+    <link rel="stylesheet" href="../CSS_Files/mystyle.css">
+    
+
+</head>
+
+<body>
+    <h1>PopBeat Radio</h1>
+    <h2>Production Site</h2>
+   
+    <img id="MusicNote" src="../Images/note.jpg" alt="Music Note">
+    <img id="BunnyMusic" src="../Images/bunny.avif" alt="Bunny Music">
+   
+    <div class= "Home_Button">
+        <button>Home</button>
+    </div>
+
+    
+
+    <div class= "Help">
+        <a href = "https://airmedia.co/radioproductionlibrary/"><button>Get Assistance</button></a>
+    </div>
+
+    <form action="/search" method="GET">
+        <input id="searchBox" type="search" name="query" placeholder="Search Here ">
+        <button id="submit-search" style="float:inherit; width:100px;height:30px" type="submit">Search</button>
+    </form>
+
+    
+
+    
+
+
+    <div class="calendar">
+        <div class= "header">
+            <button id= "prevBtn">
+                <i class= "fa-solid fa-chevron-left">&lt</i>
+            </button>
+            <div class = "monthYear" id= "monthYear"></div>
+            <button id="nextBtn">
+                <i class= "fa-solid fa-chevron-right">&gt</i>
+            </button>
+        </div>
+        <div class="days">
+            <div class="day">&nbsp Mon &nbsp</div>
+            <div class="day">&nbsp Tue &nbsp</div>
+            <div class="day">&nbsp Wed &nbsp</div>
+            <div class="day">&nbsp Thu &nbsp</div>
+            <div class="day">&nbsp Fri &nbsp</div>
+            <div class="day">&nbsp Sat &nbsp</div>
+            <div class="day">&nbsp &nbsp Sun &nbsp</div>
+        </div>
+        <div class="dates" id="dates"><a href= "www.google.com"></a></div>
+    </div>
+
+    <div class= "playlist">
+        <h3>Playlists 🎵</h3>
+        <div class = "playlist_heading">
+            <button id = "createPlaylist">
+                <i>Create Playlist</i>
+            </button>
+            <button id = "editPlaylist"> 
+                <i>Edit</i>
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="footer">
+        <p style="font-size: 15px;"><a href="">Privacy Policy</a> | Copyright © 2024 PopBeat Radio | <a href="">Terms and
+                Conditions</a></p>
+    </div>
+
+    <script src="../JavaScript_Files/javaScript.js"></script>
+    
+
+</body>
+
+</html>

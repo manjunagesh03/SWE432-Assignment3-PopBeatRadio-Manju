@@ -1,0 +1,284 @@
+/* For html tag */
+html { 
+    overflow-y: scroll;
+    overflow-x: scroll; 
+    
+}
+
+/* For html and body tag */
+html,body{
+    background-color: rgb(175, 208, 227);
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* For h1 tag */
+h1{
+    display: flex;
+    position: absolute;
+    padding-top: 2px; 
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    margin-left: 550px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    text-size-adjust: none;
+    color: rgb(255, 241, 146);
+}
+
+/* For h2 tag */
+h2{
+    display: flex;
+    position: absolute;
+    padding-top: 90px; 
+    padding-bottom: 2px;
+    margin-bottom: 3px;
+    margin-left: 560px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    text-size-adjust: none;
+    color: white;
+    
+}
+
+/* Home Button */
+.Home_Button{
+    display: flex;
+    position: absolute;
+    top: 230px;
+    justify-content: flex-end;
+    margin-left: 40px;
+    transform: translateY(-50%); 
+}
+
+/* Assistance Button */
+.Help{
+    display: flex;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 40px;
+    transform: translateY(-50%); 
+}
+
+/* For all buttons */
+button{
+    background-color: rgb(196, 164, 132);
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+}
+
+/* Upper left hand image */
+#MusicNote{
+    display: flex;
+    position: absolute;
+    margin-top: 10px; 
+    margin-left: 35px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Upper right hand image */
+#BunnyMusic{
+   display: flex;
+   position: absolute;
+   margin-top: 10px;
+   margin-left: 1200px;
+   width: 210px;
+   height: 150px;  
+}
+
+/* Search box */
+#searchBox {
+    display: flex;
+    position: absolute; 
+    margin-top: 200px;
+    margin-left: 520px;
+    border: 2px dashed #090708;
+    padding: 10px;
+    border-radius: 10px;
+    width: 290px;
+    height: 30px;
+}
+#searchBox:hover {
+    transform: scale(1.05);
+    background-color: rgb(216, 210, 211);
+    transition: transform 0.2s ease;
+}
+
+/* Search submit */
+#submit-search{
+    display:flex;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 830px;
+    justify-content: center;
+}
+
+
+.calendar{
+    display: flex;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 300px;
+    width: 420px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #fff;
+    border-radius:10px;
+    box-shadow: 0 0 10px #0000004d;
+    justify-content: flex-start;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+}
+
+.monthYear {
+    text-align: center;
+    font-weight: 600;
+    width: 150px;
+
+}
+
+.header button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+
+.days {
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+.day {
+    text-align:center;
+    padding: 5px;
+    color: black;
+    font-weight: 500;
+    
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+}
+
+.date {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: 0.2s;
+}
+
+.date:hover,
+.date.active {
+    background: #ff5869;
+    color: #fff;
+}
+
+.date.inactive{
+    color: #d2d2d2;
+}
+
+.date.inactive:hover{
+    color: #fff;
+}
+
+.playlist{
+    display: flex;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(236, 156, 156);
+    margin-left: 1100px;
+    margin-top: 280px;
+    border-radius: 5%;
+}
+
+h3{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    resize: none;
+    margin-left: 100px;
+}
+
+.playlist button{
+    background-color: rgb(215, 223, 233);
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#createPlaylist {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+
+#editPlaylist {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 50px;
+    height: 20px;
+    
+
+}
+
+
+
+
+.footer {
+    text-align: center;
+    background-color: #e0dfe7;
+    padding: 20px;
+    
+    margin-top:100px;
+    color: black;
+    flex: 0 0 30px;
+}
+
+
+
+
+
+
